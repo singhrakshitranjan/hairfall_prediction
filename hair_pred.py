@@ -166,7 +166,7 @@ df_pred['q13'] = df_pred['q13'].apply(n)
 #checking convertion
 
 # Load the saved model for prediction
-with open('C:/Users/singh/OneDrive/Documents/Hairfall_Predict/svm_model_pkl', 'rb') as file:
+with open('svm_model_pkl', 'rb') as file:
     svm_model = pickle.load(file)
 
 prediction = svm_model.predict(df_pred)
