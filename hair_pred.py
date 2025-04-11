@@ -172,7 +172,7 @@ df_pred['q11'] = df_pred['q11'].apply(k)
 df_pred['q12'] = df_pred['q12'].apply(l)
 df_pred['q13'] = df_pred['q13'].apply(n)
 
-#st.dataframe(df_pred)
+st.dataframe(df_pred)
 #checking convertion
 
 # Load the saved model for prediction
