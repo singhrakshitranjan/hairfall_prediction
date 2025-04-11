@@ -8,6 +8,57 @@ Created on Sat Feb 22 20:20:05 2025
 import streamlit as st
 import pickle
 import pandas as pd
+st.markdown("""
+    <style>
+        /* Main background color */
+        .stApp {
+            background-color: #f5f5f5;
+        }
+        
+        /* Button styling */
+        .stButton>button {
+            background-color: #4CAF50;  /* Green background */
+            color: white;  /* White text */
+            border: 2px solid #45a049;  /* Dark green border */
+            border-radius: 8px;  /* Rounded corners */
+            padding: 10px 24px;  /* Padding */
+            font-weight: bold;  /* Bold text */
+            transition: all 0.3s;  /* Smooth transition */
+        }
+        
+        /* Button hover effect */
+        .stButton>button:hover {
+            background-color: #45a049;  /* Darker green */
+            color: white;
+            border: 2px solid #4CAF50;
+        }
+        
+        /* Header text color */
+        h3 {
+            color: #2c3e50;
+        }
+        
+        /* General text color */
+        .stMarkdown, .stSelectbox label {
+            color: #34495e;
+        }
+        
+        /* Select box border */
+        .stSelectbox>div>div>select {
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+        }
+        
+        /* Columns background */
+        .stColumn {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 5px;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 st.html("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</h3>")
 
