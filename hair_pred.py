@@ -8,6 +8,15 @@ Created on Sat Feb 22 20:20:05 2025
 import streamlit as st
 import pickle
 import pandas as pd
+st.markdown("""
+    <style>
+        /* Center-align the button */
+        div.stButton > button {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 st.html("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</h3>")
 
