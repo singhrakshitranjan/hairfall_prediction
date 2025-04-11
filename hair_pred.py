@@ -9,34 +9,20 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-# Custom CSS for background color and button centering
+st.html("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</h3>")
 st.markdown("""
     <style>
-        /* Set the background color */
-        selectbox {
-            background-color: #f0f8ff; /* light blue, change as needed */
-        }
-
         /* Center-align the button */
         div.stButton > button {
             display: block;
-            margin-top: 1rem;
             margin: 0 auto;
-        }
-
-        /* Optional: center and style the header */
-        h3 {
-            text-align: center;
-            color: #333333;
         }
     </style>
 """, unsafe_allow_html=True)
 
-# Use markdown instead of st.html (which is not a Streamlit function)
-st.markdown("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</h3>", unsafe_allow_html=True)
+col1, col2, = st.columns(2)
 
-col1, col2 = st.columns(2)
-
+# getting user input
 
 # getting user input
 q1 = col1.selectbox("What is your age group?",["Below 18", "18-25", "26-40", "41-55","Above 55"])
