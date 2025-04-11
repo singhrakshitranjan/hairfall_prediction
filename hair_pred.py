@@ -9,7 +9,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-st.html("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</h3>")
+st.html("<h1><center>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!</center></h1>")
 st.markdown("""
     <style>
         /* Center-align the button */
