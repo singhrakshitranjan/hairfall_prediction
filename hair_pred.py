@@ -13,6 +13,7 @@ st.markdown("""
         /* Center-align the button */
         div.stButton > button {
             display: block;
+            margin-top: 1rem;
             margin: 0 auto;
         }
     </style>
