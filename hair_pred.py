@@ -13,7 +13,7 @@ import pandas as pd
 st.markdown("""
     <style>
         /* Set the background color */
-        body {
+        selectbox {
             background-color: #f0f8ff; /* light blue, change as needed */
         }
 
