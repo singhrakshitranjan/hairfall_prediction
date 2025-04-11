@@ -14,23 +14,23 @@ st.html("<h3>Take the 2-Minute Hair Fall Quiz Get Your Personalized Risk Level!<
 col1, col2, = st.columns(2)
 
 # getting user input
-q1 = col1.selectbox("1.What is your age group?",["Below 18", "18-25", "26-40", "41-55","Above 55"])
-q2 = col2.selectbox("2.What is your gender?",["Female", "Male"])
-q3 = col1.selectbox("3.Do you have a family history of hair loss?",["No", "Yes"])
-q4 = col2.selectbox("4.How many hours of sleep do you get per night?",["Less than 5 hours", "5-6 hours","7-9 hours","Above 9 hours"])
+q1 = col1.selectbox("What is your age group?",["Below 18", "18-25", "26-40", "41-55","Above 55"])
+q2 = col2.selectbox("What is your gender?",["Female", "Male"])
+q3 = col1.selectbox("Do you have a family history of hair loss?",["No", "Yes"])
+q4 = col2.selectbox("How many hours of sleep do you get per night?",["Less than 5 hours", "5-6 hours","7-9 hours","Above 9 hours"])
 
 
-q5 = col1.selectbox("5.Do you feel stressful?",["Not at all", "Rarely", "Sometimes", "Often","Always"])
-q6 = col2.selectbox("6.How would you describe your diet?",["Healthy (rich in proteins, vitamins, and nutrients)", "Moderate (balanced but not consistent)", "Poor (junk food, irregular meals)"])
-q7 = col1.selectbox("7.Do you smoke and/or consume alcohol?",["Not at all", "Occasionally", "Regularly", "Daily"])
-q8 = col2.selectbox("8.Have you ever been diagnosed with a hormonal imbalance (e.g., PCOS, thyroid disorder)?",["Yes", "No"])
+q5 = col1.selectbox("Do you feel stressful?",["Not at all", "Rarely", "Sometimes", "Often","Always"])
+q6 = col2.selectbox("How would you describe your diet?",["Healthy (rich in proteins, vitamins, and nutrients)", "Moderate (balanced but not consistent)", "Poor (junk food, irregular meals)"])
+q7 = col1.selectbox("Do you smoke and/or consume alcohol?",["Not at all", "Occasionally", "Regularly", "Daily"])
+q8 = col2.selectbox("Have you ever been diagnosed with a hormonal imbalance (e.g., PCOS, thyroid disorder)?",["Yes", "No"])
 
-q9 = col1.selectbox("9.THave you experienced sudden weight gain or loss in the last 6 months?",["No significant change", "Gained weight unexpectedly", "Lost weight unexpectedly"])
-q10 = col2.selectbox("10.Do you experience irregular menstrual cycles (for females) or signs of low testosterone (for males, e.g., fatigue, muscle loss)?",["No everything is normal", "Occasionally", "Frequently"])
-q11 = col1.selectbox("11.How would you describe your hair shedding rate?",["No shedding", "Mild shedding", "Moderate shedding", "Severe shedding"])
-q12 = col2.selectbox("12.How would you describe your scalp health?",["Healthy", "Dry& Flaky", "Oily", "Dandruff-prone"])
+q9 = col1.selectbox("Have you experienced sudden weight gain or loss in the last 6 months?",["No significant change", "Gained weight unexpectedly", "Lost weight unexpectedly"])
+q10 = col2.selectbox("Do you experience irregular menstrual cycles (for females) or signs of low testosterone (for males, e.g., fatigue, muscle loss)?",["No everything is normal", "Occasionally", "Frequently"])
+q11 = col1.selectbox("How would you describe your hair shedding rate?",["No shedding", "Mild shedding", "Moderate shedding", "Severe shedding"])
+q12 = col2.selectbox("How would you describe your scalp health?",["Healthy", "Dry& Flaky", "Oily", "Dandruff-prone"])
 
-q13 = col1.selectbox("13.How oily does your scalp feel?",["Normal", "Dry", "Oily"])
+q13 = col1.selectbox("How oily does your scalp feel?",["Normal", "Dry", "Oily"])
 
 btn=st.button('Predict', type="primary")
 
