@@ -16,6 +16,9 @@ st.markdown("""
             margin-top: 1rem;
             margin: 0 auto;
         }
+        body {
+            background-color: #f0f8ff; /* light blue, change as needed */
+        }
     </style>
 """, unsafe_allow_html=True)
 
